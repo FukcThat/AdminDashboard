@@ -10,13 +10,36 @@ body {
 
 nav {
     height: 100vh;
-    width: 15%;
+    width: 25rem;
     background-color: rgb(225, 153, 165);
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 600;
     color: white;
 }
 
+ul {
+    list-style: none;
+}
+
+li {
+    margin-left: 1.5rem;
+    display: grid;
+    grid-template-columns: 4rem 40px;
+    grid-template-rows: 3rem;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
 .navGroup {
-    margin: 1rem;
+    margin: 2rem;
+}
+
+#dashNav {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin: 3rem;
 }
