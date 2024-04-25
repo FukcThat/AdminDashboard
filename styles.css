@@ -4,8 +4,8 @@
 }
 
 body {
+    background-color: rgb(237, 237, 237);
     display: flex;
-    flex-wrap: wrap;
 }
 
 nav {
@@ -32,6 +32,13 @@ li:hover {
     cursor: pointer;
 }
 
+input {
+    border-radius: 5px;
+    border: grey solid 0.5px;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
 .navGroup {
     margin: 2rem;
 }
@@ -43,3 +50,25 @@ li:hover {
     gap: 2rem;
     margin: 3rem;
 }
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+#topBar {
+    border: red solid 1px;
+    display: grid;
+    width: calc(100vw - 25rem - 1px);
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 5rem 5rem;
+}
+
+#searchBlock {
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+

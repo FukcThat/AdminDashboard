@@ -60,113 +60,127 @@
         </li>
       </ul>
     </nav>
-    <div id="topBar">
-      <div id="search">
-        <label for="search">
-          <i class="fa-solid fa-magnifying-glass" style="color: #000000"></i>
-        </label>
-        <input type="search" id="search" />
+    <div class="flex-col">
+      <div id="topBar">
+        <div id="searchBlock">
+          <label for="search">
+            <i
+              class="fa-solid fa-magnifying-glass fa-xl"
+              style="color: #000000"
+            ></i>
+          </label>
+          <input type="search" id="search" />
+        </div>
+        <div id="topTopRight">
+          <i class="fa-regular fa-bell" style="color: #000000"></i>
+          <div id="profilePicTR"></div>
+          <div id="userNameTR"></div>
+        </div>
+        <div id="greeting">
+          <div id="profilePicTL"></div>
+          <div id="userNameTL"></div>
+        </div>
+        <div id="topButtons">
+          <button id="newBtn"></button>
+          <button id="uploadBtn"></button>
+          <button id="shareBtn"></button>
+        </div>
       </div>
-      <div id="topTopRight">
-        <i class="fa-regular fa-bell" style="color: #000000"></i>
-        <div id="profilePicTR"></div>
-        <div id="userNameTR"></div>
-      </div>
-      <div id="greeting">
-        <div id="profilePicTL"></div>
-        <div id="userNameTL"></div>
-      </div>
-      <div id="topButtons">
-        <button id="newBtn"></button>
-        <button id="uploadBtn"></button>
-        <button id="shareBtn"></button>
-      </div>
-    </div>
-    <div id="mainView">
-      <h1>Your Projects</h1>
-      <div class="flatCard">
-        <h3>Some Header</h3>
-        <p>
-          Some Text Some Text Some Text Some Text Some Text Some Text Some Text
-          Some Text Some Text Some Text Some Text Some Text Some Text Some Text
-        </p>
-        <i class="fa-regular fa-star"></i>
-        <i class="fa-solid fa-share-nodes" style="color: #000000"></i>
-        <i class="fa-solid fa-user-plus" style="color: #000000"></i>
-      </div>
-      <div class="flatCard">
-        <h3>Some Header</h3>
-        <p>
-          Some Text Some Text Some Text Some Text Some Text Some Text Some Text
-          Some Text Some Text Some Text Some Text Some Text Some Text Some Text
-        </p>
-        <i class="fa-regular fa-star"></i>
-        <i class="fa-solid fa-share-nodes" style="color: #000000"></i>
-        <i class="fa-solid fa-user-plus" style="color: #000000"></i>
-      </div>
-      <div class="flatCard">
-        <h3>Some Header</h3>
-        <p>
-          Some Text Some Text Some Text Some Text Some Text Some Text Some Text
-          Some Text Some Text Some Text Some Text Some Text Some Text Some Text
-        </p>
-        <i class="fa-regular fa-star"></i>
-        <i class="fa-solid fa-share-nodes" style="color: #000000"></i>
-        <i class="fa-solid fa-user-plus" style="color: #000000"></i>
-      </div>
-      <div class="flatCard">
-        <h3>Some Header</h3>
-        <p>
-          Some Text Some Text Some Text Some Text Some Text Some Text Some Text
-          Some Text Some Text Some Text Some Text Some Text Some Text Some Text
-        </p>
-        <i class="fa-regular fa-star"></i>
-        <i class="fa-solid fa-share-nodes" style="color: #000000"></i>
-        <i class="fa-solid fa-user-plus" style="color: #000000"></i>
-      </div>
-      <div class="flatCard">
-        <h3>Some Header</h3>
-        <p>
-          Some Text Some Text Some Text Some Text Some Text Some Text Some Text
-          Some Text Some Text Some Text Some Text Some Text Some Text Some Text
-        </p>
-        <i class="fa-regular fa-star"></i>
-        <i class="fa-solid fa-share-nodes" style="color: #000000"></i>
-        <i class="fa-solid fa-user-plus" style="color: #000000"></i>
-      </div>
-      <div class="flatCard">
-        <h3>Some Header</h3>
-        <p>
-          Some Text Some Text Some Text Some Text Some Text Some Text Some Text
-          Some Text Some Text Some Text Some Text Some Text Some Text Some Text
-        </p>
-        <i class="fa-regular fa-star"></i>
-        <i class="fa-solid fa-share-nodes" style="color: #000000"></i>
-        <i class="fa-solid fa-user-plus" style="color: #000000"></i>
-      </div>
-      <h1>Announcements</h1>
-      <div class="longCard">
-        <h5>Some Header</h5>
-        <p>
-          Some text Some text Some text Some text Some text Some text Some text
-          Some text Some text Some text Some text Some text Some text Some text
-        </p>
-        <h5>Some Header</h5>
-        <p>
-          Some text Some text Some text Some text Some text Some text Some text
-          Some text Some text Some text Some text Some text Some text Some text
-        </p>
-        <h5>Some Header</h5>
-        <p>
-          Some text Some text Some text Some text Some text Some text Some text
-          Some text Some text Some text Some text Some text Some text Some text
-        </p>
-      </div>
-      <h1>Trending</h1>
-      <div class="longCard">
-        <div class="trendProfilePic"></div>
-        <div class="trendUsername"></div>
-        <div class="trendProject"></div>
+      <div id="mainView">
+        <h1>Your Projects</h1>
+        <div class="flatCard">
+          <h3>Some Header</h3>
+          <p>
+            Some Text Some Text Some Text Some Text Some Text Some Text Some
+            Text Some Text Some Text Some Text Some Text Some Text Some Text
+            Some Text
+          </p>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-solid fa-share-nodes" style="color: #000000"></i>
+          <i class="fa-solid fa-user-plus" style="color: #000000"></i>
+        </div>
+        <div class="flatCard">
+          <h3>Some Header</h3>
+          <p>
+            Some Text Some Text Some Text Some Text Some Text Some Text Some
+            Text Some Text Some Text Some Text Some Text Some Text Some Text
+            Some Text
+          </p>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-solid fa-share-nodes" style="color: #000000"></i>
+          <i class="fa-solid fa-user-plus" style="color: #000000"></i>
+        </div>
+        <div class="flatCard">
+          <h3>Some Header</h3>
+          <p>
+            Some Text Some Text Some Text Some Text Some Text Some Text Some
+            Text Some Text Some Text Some Text Some Text Some Text Some Text
+            Some Text
+          </p>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-solid fa-share-nodes" style="color: #000000"></i>
+          <i class="fa-solid fa-user-plus" style="color: #000000"></i>
+        </div>
+        <div class="flatCard">
+          <h3>Some Header</h3>
+          <p>
+            Some Text Some Text Some Text Some Text Some Text Some Text Some
+            Text Some Text Some Text Some Text Some Text Some Text Some Text
+            Some Text
+          </p>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-solid fa-share-nodes" style="color: #000000"></i>
+          <i class="fa-solid fa-user-plus" style="color: #000000"></i>
+        </div>
+        <div class="flatCard">
+          <h3>Some Header</h3>
+          <p>
+            Some Text Some Text Some Text Some Text Some Text Some Text Some
+            Text Some Text Some Text Some Text Some Text Some Text Some Text
+            Some Text
+          </p>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-solid fa-share-nodes" style="color: #000000"></i>
+          <i class="fa-solid fa-user-plus" style="color: #000000"></i>
+        </div>
+        <div class="flatCard">
+          <h3>Some Header</h3>
+          <p>
+            Some Text Some Text Some Text Some Text Some Text Some Text Some
+            Text Some Text Some Text Some Text Some Text Some Text Some Text
+            Some Text
+          </p>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-solid fa-share-nodes" style="color: #000000"></i>
+          <i class="fa-solid fa-user-plus" style="color: #000000"></i>
+        </div>
+        <h1>Announcements</h1>
+        <div class="longCard">
+          <h5>Some Header</h5>
+          <p>
+            Some text Some text Some text Some text Some text Some text Some
+            text Some text Some text Some text Some text Some text Some text
+            Some text
+          </p>
+          <h5>Some Header</h5>
+          <p>
+            Some text Some text Some text Some text Some text Some text Some
+            text Some text Some text Some text Some text Some text Some text
+            Some text
+          </p>
+          <h5>Some Header</h5>
+          <p>
+            Some text Some text Some text Some text Some text Some text Some
+            text Some text Some text Some text Some text Some text Some text
+            Some text
+          </p>
+        </div>
+        <h1>Trending</h1>
+        <div class="longCard">
+          <div class="trendProfilePic"></div>
+          <div class="trendUsername"></div>
+          <div class="trendProject"></div>
+        </div>
       </div>
     </div>
   </body>
