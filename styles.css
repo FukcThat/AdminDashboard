@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(255, 255, 255);
     display: flex;
 }
 
@@ -33,10 +33,22 @@ li:hover {
 }
 
 input {
-    border-radius: 5px;
-    border: grey solid 0.5px;
-    font-size: 1.5rem;
+    border-radius: 15px;
+    background-color: rgb(236, 211, 211);
+    border: none;
+    font-size: 1.75rem;
     width: 100%;
+}
+
+button {
+    height: 3.5rem;
+    width: 10rem;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(225, 153, 165);
+    box-shadow: 1px 1px 4px rgb(147, 34, 68);
+    font-size: 1.25rem;
 }
 
 .navGroup {
@@ -57,11 +69,11 @@ input {
 }
 
 #topBar {
-    border: red solid 1px;
     display: grid;
-    width: calc(100vw - 25rem - 1px);
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 5rem 5rem;
+    width: calc(100vw - 24.5rem);
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 4rem 8rem;
+    margin-top: 1rem;
 }
 
 #searchBlock {
@@ -69,6 +81,61 @@ input {
     display: flex;
     align-items: center;
     gap: 1rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
+#topTopRight {
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#profilePicTR {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 25px;
+    background-color: rgb(147, 34, 68);
+}
+
+#userNameTR {
+    margin-right: 2rem;
+}
+
+#topButtons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 2rem;
+}
+
+#profilePicTL {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50px;
+    background-color: rgb(147, 34, 68);
+    margin-left: 2rem;
+}
+
+#greeting {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#greetText {
+    font-size: 1.25rem;
+}
+
+#userNameTL {
+    font-size: 2rem;
+}
+
+#mainView {
+    background-color: rgb(244, 237, 237);
+    height: 100%;
+}
