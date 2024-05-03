@@ -57,6 +57,19 @@ h1 {
     align-items: flex-end;
 }
 
+h3 {
+    width: 85%;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 2.25rem;
+}
+
+p {
+    width: 85%;
+    place-self: center;
+}
+
 .navGroup {
     margin: 2rem;
 }
@@ -168,16 +181,26 @@ h1 {
 
 .flatCard {
     height: 80%;
-    width: 80%;
+    width: 85%;
     border-radius: 5px;
     background-color: white;
     border-left: solid 5px rgb(167, 79, 94);
     place-self: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.flatCardIcons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2.5rem;
+    padding-right: 2rem;
 }
 
 .longCard {
     height: 90%;
-    width: 80%;
+    width: 85%;
     border-radius: 5px;
     background-color: white;
     place-self: center;
