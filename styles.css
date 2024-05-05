@@ -230,3 +230,26 @@ p {
     padding-bottom: 1.75rem;
     border-bottom: rgba(231, 212, 212, 0.68) solid 1px;  
 }
+
+.trendingBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#trendProfilePic {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 20px;
+    background-color: rgb(147, 34, 68);
+}
+
+#trendUsername {
+    font-size: 1rem;
+}
+
+#trendProject {
+    font-size: 1rem;
+    color: dimgray;
+}
