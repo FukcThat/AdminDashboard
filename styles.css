@@ -213,6 +213,10 @@ p {
     border-radius: 5px;
     background-color: white;
     place-self: center;
+}
+
+.longGridBlock {
+    place-self: center;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
 }
@@ -227,7 +231,8 @@ p {
 }
 
 .bottomBorder {
-    border-bottom: rgba(231, 212, 212, 0.68) solid 1px;  
+    margin-bottom: 0.25rem;
+    border-bottom: rgba(223, 102, 102, 0.68) solid 1px;  
 }
 
 .trendingBlock {
