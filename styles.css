@@ -54,7 +54,7 @@ button {
 h1 {
     padding-left: 10%;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 h3 {
@@ -235,6 +235,13 @@ p {
     border-bottom: rgba(223, 102, 102, 0.68) solid 1px;  
 }
 
+#trendingGrid {
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    align-items: center;
+}
+
 .trendingBlock {
     width: 100%;
     display: flex;
@@ -243,17 +250,20 @@ p {
 }
 
 #trendProfilePic {
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
+    margin-left: 1.5rem;
     border-radius: 20px;
     background-color: rgb(147, 34, 68);
 }
 
 #trendUsername {
     font-size: 1rem;
+    margin-left: 1.5rem;
 }
 
 #trendProject {
     font-size: 1rem;
     color: dimgray;
+    margin-left: 1.5rem;
 }
